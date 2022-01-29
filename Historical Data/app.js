@@ -34,7 +34,7 @@ const options = {
 	"path": "/stock/v3/get-historical-data?symbol="+first1+"&region="+last1,
 	"headers": {
 		"x-rapidapi-host": "yh-finance.p.rapidapi.com",
-		//"x-rapidapi-key": "b223b82efbmsh884444e64254502p1af337jsn5038b48422e6",
+		//"x-rapidapi-key": "",
 		"useQueryString": true
 	}
 };
