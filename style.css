@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+html{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+body{
+    background: #20344c;
+    padding: 0;
+}
+
+ /* .nav-link{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background: #20344c;
+    transition: 0.5s;
+    text-decoration: rgb(23, 9, 155);
+    text-decoration-line:underline ;
+} */
+
+.navbar{
+    background-color: #20344c;
+    height: 12vh;
+    box-shadow: 0 0 10px 0 #00000033;
+}
+
+/*.navbar-brand{
+    color: #FFF;
+    font-family: 'McLaren', sans-serif;
+    margin: 0 3%;
+    font-size: 3vw;
+}
+
+
+button{
+    background-color: darkcyan;
+    text-decoration: darkgray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    position: relative;
+}
+ 
+h1{
+    color: white;
+}*/
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    background-color: cadetblue;
+    font-size: 10vw;
+    font-family: McLaren;
+    position: relative;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+} 
+
+.icon::before{
+    content: "iStokx";
+    background: linear-gradient(#D9D7F1, #F9C5D5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    transition: all 1s ease-in-out;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+} 
+
+/* .icon:hover::after{
+    content: attr(data-hover);
+  
+} */
+
+ /* .icon:hover::before{
+    width: 100%;
+}   */
+
+#logo {
+    width: 30%;
+}
+
+.nav-link{
+    /* transition: 1s; */
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    color: orange;
+}
+
+.nav-link:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 3px;
+    left: 0;
+    background-color: orange;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.nav-link:hover:after{
+    color: black;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    /* text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: orange;
+    transform: underline translateX(-30px); */
+}
+
+
+/* #header{
+    background-color: #101729;
+    height: 12vh;
+    box-shadow: 0 0 10px 0 #00000033;
+}
+
+#header h1{
+    color: #FFF;
+    font-family: 'McLaren', sans-serif;
+    margin: 0 3%;
+    font-size: 3vw;
+} */
+
+/* ul{
+    float: right; 
+    margin-right: 20px;
+}  */
+
+/* .navtop{
+    align-items: flex-end;
+    display: flex;
+} */
+/* li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+} */
