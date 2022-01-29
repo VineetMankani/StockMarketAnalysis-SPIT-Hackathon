@@ -51,9 +51,9 @@ const request = https.request(options, function (res) {
 		const body = Buffer.concat(chunks);
     var stokx = body.toString();
     const jstock=JSON.parse(stokx);
-    //console.log(jstock);
-    res.write(jstock);
-    req.send();
+    console.log(jstock);
+    //res.write(jstock);
+    //req.send();
 	});
 });
 
